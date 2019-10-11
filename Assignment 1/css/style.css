@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+.btn {
+    border-color: #00D3CA !important;
+    color: #00D3CA !important;
+    background-color: black !important;
+}
+
+.btn:hover {
+    color: black !important;
+    background-color: #00D3CA !important;
+}
+
+.form-control::placeholder {
+    color: #F06C00 !important;
+}
+
+.form-control {
+    color: #F06C00 !important;
+}
+
+.nav-link {
+    font-size: 150% !important;
+    font-weight: 600;
+    text-transform: uppercase; 
+    color: #00D3CA !important;
+}
+
+nav ul li:nth-child(odd) a{
+    color: #F06C00 !important;
+}
+
+.green {
+    background-color: #00D3CA !important;
+    color: #F06C00;
+}
+
+.svg1 {
+    background-color: #F06C00 !important;
+    padding: 20px;
+}
+
+.orange {
+    background-color: #F06C00 !important;
+    color: #00D3CA;
+}
+
+.svg2 {
+    padding: 20px;
+    background-color: #00D3CA !important;
+}
+
+footer p {
+    color: #00D3CA;
+}
+
+footer .row p:last-child {
+    color: #F06C00;
+}
